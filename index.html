@@ -1,13 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My assignment</title>
-</head>
-<body>
-    <h1>My assignment</h1>
-    
-</body>
+<html>
+  <head>
+    <title>My first website</title>
+  </head>
+  <body>
+    <h1>Hello world!</h1>
+    <p>Welcome to my first website.</p>
+    <h2>Web Security</h2>
+    <p id="web-security-question">How would you advise a potential client to secure his/her website from web security attacks? Note: the word count for your answer should not be greater than 250 words</p>
+    <p id="web-security-answer">
+        I would recommend to my client to consider security as a very serious act. It helps to protect your website from attacks and a variety threats. By a successful attack, the business can suffer a lot and losing money, customer information can be compromised, and  also losing the trust of customers.
+There are several important threats to a website security, such as:
+Cross-site scripting (XSS), which occurs when a malicious script successfully inserted and runs on a website, allowing an attacker to steal sensitive information from users.
+ SQL injection, which involves sending malicious data into a website's database to gain unauthorized access to sensitive information. 
+ Cross-site request forgery (CSRF) where attackers trick users into performing actions on a website without their consent.
+To deal with these and many other security threats we can apply some best practices which mentioned in OWASP Top 10. A few example like : 
+Sanitization of data, the input data should be sanitized to remove any special characters or malicious code that could be used to attack the website. 
+Secure authorization and authentication, strong authentication. By applying authorization users can only access the information and features that they are authorized to use. 
+Continuous Deployment/Continuous Integration (CI/CD), automated process that runs every code change through a series of automated tests and security checks. If the code changes pass all the tests and checks, they are automatically deployed to production. 
+Implementation of session timeout for logged in users.
+    </p>
+  </body>
 </html>
